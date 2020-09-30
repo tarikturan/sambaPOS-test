@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background: #f5f6fa;
+}
+#Home {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(90.27deg, #fe3e05 0%, #fe8911 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar a {
+  position: absolute;
+  width: 105px;
+  height: 22px;
+  left: 300px;
+  margin-top: 19px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar a:hover {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+#main-menu-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 260px;
+  top: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo {
+  position: absolute;
+  width: 185px;
+  height: 37px;
+  left: 30px;
+  top: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #ffffff;
+}
+
+#menubar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1536px;
+  height: 180px;
+
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  overflow-x: visible;
+}
+
+#sidebar {
+  position: relative;
+  width: 300px;
+  overflow-x: visible;
+  margin-top: 15px;
+}
+
+.sidebar-item {
+  position: relative;
+  width: 260px;
+  height: 45px;
+  left: 0px;
+  background-color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  text-align: start;
+}
+
+.sidebar-item a {
+  position: relative;
+  left: 10px;
+  top: 9px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-decoration: none;
+
+  color: #2f3640;
+}
+
+.sidebar-item:hover {
+  background-color: khaki;
+  cursor: pointer;
+}
+
+#content {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 95%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 0px;
+  width: 125px;
+  height: 150px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.card-image {
+  position: relative;
+  width: 125px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card a {
+  position: absolute;
+  top: 93px;
+  font-style: normal;
+  font-weight: 600;
+  color: #2f3640;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 2px;
+}
+
+.card:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.price {
+  position: absolute;
+  width: 100px;
+  height: 16px;
+  left: 32px;
+  top: 125px;
+}
+
+.price p {
+  position: absolute;
+  width: 60px;
+  height: 17px;
+  left: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+
+.price a {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 40px;
+  top: 0px;
+}
+
+.price a img:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  -webkit-border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+#cart {
+  position: absolute;
+  height: 22px;
+  left: 80%;
+  top: 19px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+#sub-menus {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 77%;
+  height: 350px;
+  left: 300px;
+  top: 265px;
+  overflow-x: visible;
+}
